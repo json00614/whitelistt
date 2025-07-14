@@ -1,7 +1,7 @@
 let whitelist = [];
 
 // ✅ Replace this with your actual GitHub raw URL
-const rawWhitelistUrl = "https://github.com/json00614/whitelistt/blob/main/eth_addresses.json";
+const rawWhitelistUrl = "https://raw.githubusercontent.com/json00614/whitelistt/refs/heads/main/eth_addresses.json";
 
 // Load the whitelist from GitHub when the page loads
 window.onload = () => {
