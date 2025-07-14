@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NFT Whitelist Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>NFT Whitelist Checker</h1>
+
+    <div class="intro-box">
+      <p><strong>Welcome to the NFT Whitelist Checker</strong> — your gateway to verifying eligibility for exclusive drops, mints, and gated events.</p>
+      <p>Wondering if you’re whitelisted? Simply paste your wallet address in the box below and hit <strong>Check</strong>. Within seconds, you’ll know — no guesswork, no fake results.</p>
+      <p><strong>Fast. Reliable. Blockchain-ready.</strong></p>
+      <p class="call-to-action">Try it now. Paste your address and check if you’re whitelisted today!</p>
+    </div>
+
+    <div class="checker">
+      <input type="text" id="walletInput" placeholder="Paste your wallet address..." />
+      <button onclick="checkWhitelist()">Check</button>
+    </div>
+
+    <div id="result" class="result"></div>
+
+    <div class="admin">
+      <h2>Whitelist Status</h2>
+      <div id="uploadStatus">🔄 Loading whitelist from GitHub...</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
