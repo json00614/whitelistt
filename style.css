@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.intro-box {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-left: 5px solid #00d2ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: left;
+  color: #e0e0e0;
+}
+
+.intro-box p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.call-to-action {
+  font-weight: bold;
+  color: #00d2ff;
+}
+
+.checker {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  width: 60%;
+  font-size: 1em;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #00d2ff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a7bd5;
+  color: #fff;
+}
+
+.result {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.admin {
+  margin-top: 40px;
+  text-align: center;
+}
